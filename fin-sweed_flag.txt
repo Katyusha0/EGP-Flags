@@ -1,0 +1,43 @@
+@name Fin-Sweed Flag
+@inputs EGP:wirelink
+entity():setAlpha(0)
+
+Blue1 = vec(0,0,240)
+Blue2 = vec(0,0,120)
+Yellow = vec(255,180,0)
+White1 = vec(200)
+White2 = vec(170)
+
+EGP:egpBox(1, vec2(256,380), vec2(600,300))
+EGP:egpColor(1, White2)
+
+EGP:egpBox(2, vec2(256,256), vec2(80,520))
+EGP:egpColor(2, Blue1)
+
+EGP:egpBox(3, vec2(256,100), vec2(600,300))
+EGP:egpColor(3, White2)
+
+EGP:egpBox(4, vec2(256,118), vec2(80,280))
+EGP:egpColor(4, Blue1)
+
+EGP:egpBox(5, vec2(-10,256), vec2(380,380))
+EGP:egpAngle(5, 45)
+EGP:egpColor(5, Blue2)
+
+EGP:egpBox(6, vec2(510,256), vec2(360,360))
+EGP:egpAngle(6, 45)
+EGP:egpColor(6, Blue2)
+
+EGP:egpBox(7, vec2(296,256), vec2(56,56))
+EGP:egpAngle(7, 45)
+EGP:egpColor(7, Yellow)
+
+EGP:egpBox(8, vec2(412,256), vec2(230,80))
+EGP:egpColor(8, Yellow)
+
+EGP:egpBox(9, vec2(219,256), vec2(56,56))
+EGP:egpAngle(9, 45)
+EGP:egpColor(9, Yellow)
+
+EGP:egpBox(10, vec2(104,256), vec2(230,80))
+EGP:egpColor(10, Yellow)
